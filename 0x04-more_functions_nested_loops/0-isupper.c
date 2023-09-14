@@ -2,12 +2,11 @@
 
 /**
  * _isupper - Entry point checking for lowercase character
- * @C: Described character to be checked
- * Return: 0 for anything or 1 for uppercase character
+ * @c: the character to be checked
+ * Return: 1 for uppercase character or 0 for otherwise
  */
 
 int _isupper(int c)
-
 {
 if (c >= 65 && c <= 90)
 {
