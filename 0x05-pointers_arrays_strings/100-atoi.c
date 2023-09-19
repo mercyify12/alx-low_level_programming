@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * _atoi -
-
+ * _atoi - entry point of function that converts a string to an interger.
+ * @s: input string.
+ * Return: interger.
+ */
 
 int _atoi(char *s)
 {
@@ -39,4 +41,3 @@ int _atoi(char *s)
 
 	return (n);
 }
-
